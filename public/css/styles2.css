@@ -1,0 +1,13 @@
+.ex-header h1 {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  .navbar .logo-image svg path {
+    fill: #ffffff;
+  }
+}
