@@ -7,6 +7,10 @@
 (function($) {
     "use strict"; 
 	
+    $(document).ready(function() {
+        $('#announcement-modal').modal('show')
+    });
+
     /* Navbar Scripts */
     // jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
